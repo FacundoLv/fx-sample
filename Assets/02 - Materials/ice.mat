@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ice
+  m_Shader: {fileID: 4800000, guid: 5be70c11ffc902e4f9af6811a5d61b70, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BotTexture0:
+        m_Texture: {fileID: 2800000, guid: a9e8d7a1018997d46afef79b266cfc15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceVolume:
+        m_Texture: {fileID: 2800000, guid: a9e8d7a1018997d46afef79b266cfc15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MidTexture0:
+        m_Texture: {fileID: 2800000, guid: a9e8d7a1018997d46afef79b266cfc15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: bdab11bd8cbce914a9f5f8effd502b9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 2800000, guid: a9e8d7a1018997d46afef79b266cfc15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _inner_ice:
+        m_Texture: {fileID: 2800000, guid: a9e8d7a1018997d46afef79b266cfc15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rock1normal_ogl:
+        m_Texture: {fileID: 2800000, guid: cf7b61d39ec19254e848950706e28931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rock_roughness:
+        m_Texture: {fileID: 2800000, guid: ae5fda87a55b83a4a822ebf30093b85e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rocksflatRoughness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _ChromaticAberration: 0.1
+    - _DepthAdjustment: 1.5
+    - _DepthFactor: 1000
+    - _DepthTexResolution: 1024
+    - _Float0: 2
+    - _Float1: 2.67
+    - _InnerDepthFactor: 75
+    - _NormalStrength: 10
+    - _Opacity: 1
+    - _OuterDepthFactor: 10
+    - _Reafctionindex: 0.47
+    - _RefactionIndex: 0.7261999
+    - _RefractionScale: 0.039
+    - _RefractionStrength: 0.1
+    - _Smoothness: 0.438
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.26143643, g: 0.3302659, b: 0.4433962, a: 1}
+    - _InnerColor: {r: 0.73571557, g: 0.8074945, b: 0.9339623, a: 1}
+    - _RefractColor: {r: 0.43169275, g: 0.5741445, b: 0.8396226, a: 1}
+  m_BuildTextureStacks: []

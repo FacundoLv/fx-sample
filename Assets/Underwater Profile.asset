@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8756112352315628737
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6dd0b37d497634a95c46aa8b0de2c6, type: 3}
+  m_Name: UnderTheSeaPPSSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  _UTSTint:
+    overrideState: 1
+    value: {r: 0.5066305, g: 0.90835804, b: 0.9339623, a: 0}
+  _FlowmapIntensity:
+    overrideState: 1
+    value: 0.01
+  _NoiseTiling:
+    overrideState: 1
+    value: 6.49
+  _Speed:
+    overrideState: 1
+    value: 0.24
+--- !u!114 &-1221799370615116769
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84fcce6685858448960f7d32457e685, type: 3}
+  m_Name: ToonPPSSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  _Step1:
+    overrideState: 1
+    value: 0.99
+  _Step2:
+    overrideState: 1
+    value: 0.91
+  _Step2Intensity:
+    overrideState: 1
+    value: 0.63
+  _BaseValue:
+    overrideState: 1
+    value: 0.37
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Underwater Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: -8756112352315628737}

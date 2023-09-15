@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d4e003d16c2c64245b90c48a1dd5a6f5
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _water_nml_001: {fileID: 2800000, guid: b258e1074fc81634db684b2baa13c125, type: 3}
+  - _water_nml_002: {fileID: 2800000, guid: ba35e1da3710a9541be20cd8eb1891b7, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

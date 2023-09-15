@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 3083387e5dcfd6140b7f79a95427d5ed
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _softsquare_mask: {fileID: 2800000, guid: 955638cd15e44f947af7251d4991121c, type: 3}
+  - _SnowNormal: {fileID: 2800000, guid: 03b4e59b7eb7ec848a0fecac33d64ee1, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
